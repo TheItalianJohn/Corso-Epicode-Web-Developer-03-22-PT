@@ -1,0 +1,128 @@
+
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+      body {
+        display: flex;
+        margin: 0;
+        height: 100vh;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .main {
+        width: 100%;
+      }
+
+      .topbar {
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .content {
+        height: 100%;
+      }
+
+      .icon {
+        height: 8vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2em;
+        cursor: pointer;
+      }
+
+      .icon ion-icon {
+        font-size: 2em;
+      }
+
+      .icon p {
+        margin: 0;
+      }
+
+      .icon:not(:first-of-type) {
+        height: 16vh;
+      }
+
+      .logo {
+        height: 50%;
+      }
+
+      .search-wrapper {
+        display: flex;
+        height: 50%;
+        width: 30%;
+      }
+
+      .search-wrapper input {
+        width: 100%;
+        padding: 0 1em;
+      }
+
+      .icons-wrapper {
+        display: flex;
+        align-items: center;
+      }
+
+      .top-icon {
+        font-size: 2em;
+        padding: 0 0.5em;
+      }
+
+      .mic-icon {
+        display: flex;
+        align-items: center;
+      }
+
+      .search-btn {
+        padding: 0 0.7em;
+        font-size: 1.3em;
+        display: flex;
+        align-items: center;
+      }
+
+      .thumbnail-box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        height: 42vh;
+      }
+
+      .thumbnail-box-main-img {
+        width: 100%;
+        height: 75%;
+      }
+
+      .thumbnail-box-profile-img {
+        display: flex;
+        justify-content: center;
+        height: 25%;
+        width: 25%;
+      } 
+
+      .thumbnail-box-profile-img img {
+        padding: 0.5em;
+      }
+
+      .thumbnail-box-main-img img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .thumbnail-box-meta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75%;
+      }
+
+      .thumbnail-box-meta p, h4 {
+        margin: 0;
+      }
+
+      .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
