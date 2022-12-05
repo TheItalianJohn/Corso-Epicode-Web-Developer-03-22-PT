@@ -1,13 +1,13 @@
 body {
-    margin: 0;
-    display: block;
+    margin: auto;
     text-align: center;
 }
 
 
 
 main {
-    width: 500px;
+    width: 50%;
+    margin: auto;
 }
 
 
@@ -40,7 +40,25 @@ main {
 
 .featured {
     border-style: solid;
-    border-width: 0 0 0 2px;
-    padding: 3%;
+    border-width: 0 0 0 2px;;
     border-color: bisque;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.content-description > p {
+    text-align: left;
+}
+
+hr {
+    color: aquamarine;
+}
+
+.featured a{
+    display: block;
+}
+
+.container-recipe {
+    text-align: left;
 }
